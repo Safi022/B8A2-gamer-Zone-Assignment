@@ -131,7 +131,7 @@ font-family: 'Work Sans', sans-serif;
 border: 0;
 }
 .banner-image img{
-    width: 50%%;
+    width: 50%;
 }
 .btn{
     display: flex;
@@ -290,7 +290,7 @@ footer h2{
     color: white;
 }
 footer .gamer{
-    margin: 0px 833px 66px 630px;
+    margin: 0px 833px 50px 630px;
 }
 .footer .gamer img{
     margin-left: 833px;
@@ -314,4 +314,112 @@ footer .endings{
     font-family: 'Work Sans', sans-serif;
 font-size: 20px;
 font-weight: 600;
+margin-bottom: 60px;
+}
+.icons, .tpcp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.tpcp p, .the-end{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 0;
+}
+.the-end{
+    text-align: center;
+}
+.pi-title-1{
+    color: #F948B2;
+}
+/* responsive */
+@media screen and (max-width:576px) {
+   header nav, nav ul, .intro, .online-games-content,.pi, .first-row, .sec-row{
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    #con{
+        /* padding-right: 20px; */
+    }
+   .banner{
+    flex-direction: column-reverse;
+    padding: 0;
+   }
+   .banner-images img, .intro img{
+   width: 100%;
+   }
+   .banner-content{
+    padding: 10px;
+    background-image: none;
+   }
+   .intro-content, .intro-content h3 {
+    text-align: center;
+    padding: 15px;
+   }
+   .online-content-des{
+    text-align: center;
+   }
+   .pi-content{
+    flex-direction: column;
+    padding: 0px;
+    margin: 10px;
+    height: 100%;
+    font-weight:100%;
+   
+   }
+  .pi{
+    height: 100%;
+    font-weight:100%;
+    padding: 10px;
+    margin: 10px;
+ 
+  }
+   .image-1{
+    height: 100%;
+    width: 100%;
+  }
+  .image-2{
+   height: 50%;
+   width: 50%;}
+   .ghi, .def{
+    margin-bottom: 15px;
+   }
+  footer{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .endings{
+    /* flex-direction: column; */
+    /* padding-left: 200px; */
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+ 
+  .pi-title-1,.pi-title-2,.pi-title-3{
+    padding: 0;
+    margin-bottom: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+  }
+  .pi-des{
+    padding: 10px;
+    text-align: center;
+  }
+  .tcpc{
+    gap: 0;
+  }
+  .gamer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
