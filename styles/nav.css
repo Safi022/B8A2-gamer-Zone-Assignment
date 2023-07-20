@@ -18,11 +18,30 @@ nav ul{
     display: flex;
     gap: 32px;
 }
+nav h2{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.gamer{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    gap: 20px;
+}
+.gamer img{
+    height: 40px;
+    width: 85px;
+}
 /* banner section */
 .banner{
     display: flex;
     justify-content: space-evenly;
-    gap: 0;
 }
 .banner h2{
     color: #0B0223;
@@ -46,7 +65,7 @@ font-family: 'Work Sans', sans-serif;
 margin-top: 0;
 margin-bottom: 25px;
 }
-.banner ul li, .intro-des{
+.banner ul li, .intro-des, .og-des{
     color: #534C64;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
